@@ -19,7 +19,7 @@ layout: default
 ## Getting the code
 
     git clone git://github.com/proty/proty.git
-    cd pyrite && make
+    cd proty && make
 
 ## Dependencies
 
