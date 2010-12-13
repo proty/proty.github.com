@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{page.title}} - Proty Programming Language</title>
+    <meta charset="utf-8" />
+    <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  </head>
+  <body id="{{page.title|downcase}}">
+    <div id="wrapper">
+      <header>
+        <h1><a href="/">Proty Programming Language</a></h1>
+      </header>
+      <section id="content">
+        {{content}}
+      </section>
+      <footer>
+        &copy; Copyright {{site.time | date: "%Y" }}
+      </footer>
+    </div>
+  </body>
+</html>
