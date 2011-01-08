@@ -3,27 +3,27 @@ title: Home
 layout: default
 ---
 
-<div id="community">
-  <div class="block">
-    <h2>Proty on GitHub</h2>
-    <a href="https://github.com/proty/proty">github.com/proty/proty</a>
-  </div>
-  <div class="block">
-    <h2>Proty on Freenode</h2>
-    <div>
-      <a href="irc://chat.freenode.net/%23proty">#proty</a>
-    </div>
-  </div>
-</div>
+## About
 
-## Getting the code
+Proty is a prototype based, object oriented and dynamic programming language.
+It uses [LLVM](http://llvm.org) to generate efficient machine code and to either
+compile any program to a small standalone executable or run it directly with
+the LLVM-JIT.
 
-    git clone git://github.com/proty/proty.git
-    cd proty && make
+Proty is still in pre-alpha stage.
 
-## Dependencies
+## Build
 
-- [LLVM](http://llvm.org)
-- [clang](http://clang.llvm.org)
+    $ git clone git://github.com/proty/proty.git
+    $ cd proty && cmake . && make install
 
-<div class="clear"></div>
+Dependencies: [LLVM](http://llvm.org) & [clang](http://clang.llvm.org)
+
+## Development
+
+- Fork the code on [github](https://github.com/proty/proty)  
+- Join <a href="irc://chat.freenode.net/%23proty">#proty</a> on Freenode
+
+## License
+
+GNU General Public License 3 - See [here](/license/).
