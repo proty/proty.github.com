@@ -21,7 +21,8 @@ Dependencies: [LLVM](http://llvm.org) & [clang](http://clang.llvm.org)
 
 ## Development
 
-- Fork the code on [github](https://github.com/proty/proty)  
+- Fork the code on [github](https://github.com/proty/proty)
+- Report issues [here](https://github.com/proty/proty/issues)
 - Join <a href="irc://chat.freenode.net/%23proty">#proty</a> on Freenode
 
 ## License
