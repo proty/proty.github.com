@@ -19,11 +19,12 @@ Proty is still in pre-alpha stage.
 
 Dependencies: [LLVM](http://llvm.org) & [clang](http://clang.llvm.org)
 
-## Development
+## Resources
 
-- Fork the code on [github](https://github.com/proty/proty)
-- Report issues [here](https://github.com/proty/proty/issues)
-- Join <a href="irc://chat.freenode.net/%23proty">#proty</a> on Freenode
+- [Documentation](http://doc.proty.cc)
+- [Repository on **github**](https://github.com/proty/proty)
+- [Issues](https://github.com/proty/proty/issues)
+- [**#proty** on freenode](irc://chat.freenode.net/%23proty)
 
 ## License
 
