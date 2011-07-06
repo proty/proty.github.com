@@ -5,10 +5,10 @@ layout: default
 
 ## About
 
-Proty is a prototype based, object oriented and dynamic programming language.
-It uses [LLVM](http://llvm.org) to generate efficient machine code and to either
-compile any program to a small standalone executable or run it directly with
-the LLVM-JIT.
+Proty is a prototype based, object oriented and dynamic programming
+language. Proty uses [LLVM](http://llvm.org) as backend to either
+compile any program to a small standalone executable or run it
+directly using the LLVM-JIT.
 
 Proty is still in pre-alpha stage.
 
