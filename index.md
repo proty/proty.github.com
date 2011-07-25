@@ -10,12 +10,14 @@ language. Proty uses [LLVM](http://llvm.org) as backend to either
 compile any program to a small standalone executable or run it
 directly using the LLVM-JIT.
 
-Proty is still in pre-alpha stage.
+Proty is still in alpha stage.
 
 ## Build
 
-    $ git clone git://github.com/proty/proty.git
-    $ cd proty && cmake . && make install
+{% highlight bash %}
+$ git clone git://github.com/proty/proty.git
+$ cd proty && cmake . && make install
+{% endhighlight %}
 
 Dependencies: [LLVM](http://llvm.org) & [clang](http://clang.llvm.org)
 
