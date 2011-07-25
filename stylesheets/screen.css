@@ -1,7 +1,7 @@
 * { margin: 0; padding: 0; }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -23,22 +23,26 @@ li {
 }
 
 code {
-  display: block;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: Inconsolata, monospace;
-  padding: 10px;
+}
+
+pre code {
+  display: block;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: #f5f5f5;
+  padding: 8px 10px;
   margin: 1em 0;
-  border: 1px solid #999;
-  color: #333;
+  border: 1px solid #ccc;
 }
 
 header {
   padding: 10px 20px;
   margin-bottom: 5px;
   border-bottom: 1px solid #ccc;
+  background-color: #f5f5f5;
 }
 
 header>div {
@@ -66,13 +70,8 @@ header h1 a {
   width: 700px;
 }
 
-#content h2, #content h3, #content h4 {
-  font-weight: 200;
-  margin: 0.5em 0;
-}
-
 #content h2 {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1.7em;
 }
 
@@ -87,7 +86,7 @@ header h1 a {
 }
 
 #content a {
-  color: #0000aa;
+  color: #2255ee;
 }
 
 #content a:hover {
@@ -95,16 +94,18 @@ header h1 a {
 }
 
 footer {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   background-color: #f5f5f5;
   padding: 10px 15px;
   font-weight: 200;
-  color: #222;
 }
 
 footer > div {
   margin: 0 auto;
   width: 700px;
 }
+
 .hll { background-color: #ffffcc }
 .c { color: #408080; font-style: italic } /* Comment */
 .err { border: 1px solid #FF0000 } /* Error */
