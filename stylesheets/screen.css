@@ -38,16 +38,16 @@ pre code {
   border: 1px solid #ccc;
 }
 
+.wrapper {
+  margin: 0 auto;
+  width: 700px;
+}
+
 header {
   padding: 10px 20px;
   margin-bottom: 5px;
   border-bottom: 1px solid #ccc;
   background-color: #f5f5f5;
-}
-
-header>div {
-  margin: 0 auto;
-  width: 700px;
 }
 
 header img {
@@ -69,11 +69,6 @@ header h1 {
   border-radius: 10px;
   padding: 20px 25px;
   text-align: justify;
-}
-
-#content>div {
-  margin: 0 auto;
-  width: 700px;
 }
 
 #content h2 {
@@ -103,13 +98,20 @@ footer {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   background-color: #f5f5f5;
-  padding: 10px 15px;
+  padding: 5px 15px;
   font-weight: 200;
+  line-height: 31px;
 }
 
-footer > div {
-  margin: 0 auto;
-  width: 700px;
+#copyright {
+  font-size: 1.2em;
+  float: left;
+  color: #333;
+}
+
+#logos {
+  height: 31px;
+  float: right;
 }
 
 .hll { background-color: #ffffcc }

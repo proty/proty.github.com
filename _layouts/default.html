@@ -8,19 +8,27 @@
   </head>
   <body id="{{page.title|downcase}}">
     <header>
-      <div>
+      <div class="wrapper">
         <h1><a href="/"><img alt="Proty" src="/images/logo.png"></a> Programming Language</a></h1>
         <div class="clear"></div>
       </div>
     </header>
     <section id="content">
-      <div>
+      <div class="wrapper">
         {{content}}
       <div>
     </section>
     <footer>
-      <div>
-        &copy; Copyright {{site.time | date: "%Y" }}
+      <div class="wrapper">
+        <div id="copyright">
+          &copy; Copyright {{site.time | date: "%Y" }}
+        </div>
+        <div id="logos">
+          <a href="/license/">
+            <img src="/images/gplv3.png" alt="GPL v3" />
+          </a>
+        </div>
+        <div class="clear"></div>
       </div>
     </footer>
   </body>
