@@ -50,9 +50,15 @@ header>div {
   width: 700px;
 }
 
-header h1 a {
-  font-size: 1.2em;
-  font-weight: 200;
+header img {
+  float: left;
+  margin-right: 20px;
+}
+
+header h1 {
+  line-height: 61px;
+  font-size: 1.5em;
+  font-weight: 300;
   color: #222;
   text-decoration: none;
 }
