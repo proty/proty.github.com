@@ -5,18 +5,27 @@
     <meta charset="utf-8" />
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Inconsolata" rel="stylesheet" type="text/css">
     <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/rss.xml" />
   </head>
   <body id="{{page.title|downcase}}">
     <header>
-      <div class="wrapper">
-        <h1><a href="/"><img alt="Proty" src="/images/logo.png"></a> Programming Language</a></h1>
-        <div class="clear"></div>
+      <div id="title">
+        <div class="wrapper">
+          <h1><a href="/"><img alt="Proty" src="/images/logo.png"></a> Programming Language</h1>
+          <div class="clear"></div>
+        </div>
       </div>
+      <nav>
+        <div class="wrapper">
+          <ul>
+            <li><a href="/">Home</a></li><li><a href="/news.html">News</a></li><li><a href="http://doc.proty.cc">Docs</a></li><li><a href="/donate.html">Donate</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     </header>
-    <section id="content">
-      <div class="wrapper">
+    <section id="content" class="wrapper">
         {{content}}
-      <div>
     </section>
     <footer>
       <div class="wrapper">

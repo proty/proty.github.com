@@ -1,0 +1,24 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>proty.cc</title>
+    <link>http://proty.cc</link>
+    <description>proty.cc</description>
+    <language>de-de</language>
+    <pubDate>{{site.time | date_to_xmlschem}}</pubDate>
+
+    {% for post in site.posts %}
+    <item>
+      <title>{{post.title}}</title>
+      <description>{{post.content | xml_escape}}</description>
+      <link>http://proty.cc{{post.id}}</link>
+      <author>{{post.author}}</author>
+      <guid>http://proty.cc{{post.id}}</guid>
+      <pubDate>{{post.date | date_to_xmlschema}}</pubDate>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

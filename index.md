@@ -29,7 +29,6 @@ Dependencies: [LLVM](http://llvm.org), [clang](http://clang.llvm.org), [GNU Read
 
 ## Resources
 
-- [Documentation](http://doc.proty.cc)
 - [Repository on **github**](https://github.com/proty/proty)
 - [Issues](https://github.com/proty/proty/issues)
 - [Mailing Lists](http://mail.proty.cc)
