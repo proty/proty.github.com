@@ -16,9 +16,9 @@ language.
 ## Build
 
 {% highlight bash %}
-$ cd proty
-$ mkdir build && cd build && cmake ..
-$ make install
+$ mkdir build && cd build
+$ cmake /path/to/source
+$ make
 {% endhighlight %}
 
 ## Resources
