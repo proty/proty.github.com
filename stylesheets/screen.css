@@ -42,7 +42,9 @@ pre code {
 .wrapper {
   margin: 15px auto;
   width: 700px;
+  box-shadow: 0px 0px 2px #111;
   -moz-box-shadow: 0px 0px 2px #111;
+  -webkit-box-shadow: 0px 0px 2px #111;
 }
 
 header  {
