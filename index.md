@@ -10,7 +10,7 @@ language.
 
 ## Download
 
-- Latest Release: [Version 0.4](http://ftp.proty.cc/proty/0.4/proty-0.4.tar.gz)
+- Latest Release: [Version 0.5](http://ftp.proty.cc/proty/0.5/proty-0.5.tar.gz)
 - Clone the HEAD: `git://github.com/proty/proty.git`
 
 ## Build
