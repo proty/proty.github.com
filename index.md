@@ -23,11 +23,11 @@ $ make
 
 ## Resources
 
-- [Development](http://dev.proty.cc/projects/proty)
+- [Issue Tracker](https://github.com/proty/proty/issues)
 - [Repository on **github**](https://github.com/proty/proty)
 - [Mailing Lists](http://mail.proty.cc)
 - [**#proty** on freenode](irc://chat.freenode.net/%23proty)
 
 ## License
 
-GNU General Public License 3 - See [here](/license/).
+GNU General Public License 3 - See [here](/license.html).
